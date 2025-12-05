@@ -1,6 +1,6 @@
 # prompts.py
 
-# System prompt - defines AI behavior
+#prompt to set the personality and role of the AI tutor
 SYSTEM_PROMPT = """
 You are an AI tutor for beginner Python programmers.
 Explain concepts clearly and step by step.
@@ -9,7 +9,7 @@ If code has errors, debug and explain the errors.
 Always be friendly and encouraging.
 """
 
-# Debugging prompt - AI checks and fixes code
+#prompt to debug user code with clear parameters to help the user learn
 DEBUG_PROMPT = """
 The user wrote this Python code:
 
@@ -20,7 +20,7 @@ Explain each error in simple terms.
 Provide a corrected version of the code.
 """
 
-# Exercise generation prompt - AI creates practice exercises
+#prompt to create beginner level python exercises with clear parameters
 EXERCISE_PROMPT = """
 Create a beginner Python exercise.
 Include:
@@ -29,7 +29,7 @@ Include:
 - Difficulty level (easy)
 """
 
-# Evaluation prompt - AI evaluates user answers
+#prompt to evaluate user answer and help them improve
 EVALUATION_PROMPT = """
 The user submitted this answer:
 
