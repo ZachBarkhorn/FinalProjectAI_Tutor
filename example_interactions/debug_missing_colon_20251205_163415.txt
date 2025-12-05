@@ -1,0 +1,7 @@
+PROMPT:
+Debug the following Python code:
+for i in range(3)
+    print(i)
+
+RESPONSE:
+None
