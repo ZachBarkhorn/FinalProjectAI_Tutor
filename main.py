@@ -41,23 +41,23 @@ def main():
         elif choice == "2":
             code = get_multiline_input("Paste your Python code (finish with Ctrl+Z + Enter):")
             print("\n=== Debugging Suggestions ===\n")
-            print(debug_code(code))
+            debug_code(code)
 
         elif choice == "3":
             topic = get_multiline_input("Enter a topic to generate a Python example (finish with Ctrl+Z + Enter):")
             print("\n=== Generated Example ===\n")
-            print(generate_example(topic))
+            generate_example(topic)
 
         elif choice == "4":
             topic = get_multiline_input("Enter a topic for a beginner exercise (finish with Ctrl+Z + Enter):")
             print("\n=== Generated Exercise ===\n")
-            print(create_exercise(topic))
+            create_exercise(topic)
 
         elif choice == "5":
             problem = get_multiline_input("Enter the exercise/problem description (finish with Ctrl+Z + Enter):")
             answer = get_multiline_input("Enter the student's answer (finish with Ctrl+Z + Enter):")
             print("\n=== Evaluation ===\n")
-            print(evaluate_answer(problem, answer))
+            evaluate_answer(problem, answer)
 
         elif choice == "6":
             print("Exiting AI Tutor. Goodbye!")

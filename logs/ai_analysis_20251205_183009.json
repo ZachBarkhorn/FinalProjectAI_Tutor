@@ -1,0 +1,11 @@
+{
+    "prompt": "\nCreate a beginner Python exercise.\nInclude:\n- Problem description\n- Example input/output\n- Difficulty level (easy)\n",
+    "response": "## \ud83d\udc0d Beginner Python Exercise \u2013 \u201cEven\u2011or\u2011Odd Counter\u201d  \n\n### Problem Description\nWrite a program that reads a list of **positive integers** (one per line) until the user enters `0`.  \nThe program should then:\n\n1. Count how many of the entered numbers are **even**.  \n2. Count how many are **odd**.  \n3. Print the two counts in a clear, friendly format.\n\n> **Note:** The terminating `0` is **not** part of the list and should not be counted.\n\n---\n\n### Example Input / Output  \n\n```\nEnter a positive integer (0 to finish): 14\nEnter a positive integer (0 to finish): 7\nEnter a positive integer (0 to finish): 22\nEnter a positive integer (0 to finish): 5\nEnter a positive integer (0 to finish): 0\n```\n\n**Program output**\n\n```\nYou entered 2 even numbers.\nYou entered 2 odd numbers.\n```\n\n*Explanation:*  \nThe numbers entered (excluding the final 0) are `14, 7, 22, 5`.  \n- Even numbers: `14` and `22` \u2192 **2**  \n- Odd numbers: `7` and `5` \u2192 **2**\n\n---\n\n### Difficulty Level\n**Easy** \u2013 This exercise practices:\n\n* Getting user input in a loop.  \n* Converting strings to integers.  \n* Using the modulo operator (`%`) to test even/odd.  \n* Simple counting with variables.  \n\n---\n\n### Hints for Beginners\n1. Use a `while` loop that continues *until* the user types `0`.  \n2. Inside the loop, convert the input to `int` and check `num % 2`.  \n3. Keep two variables, e.g. `even_cnt` and `odd_cnt`, and increment the appropriate one.  \n4. After the loop ends, print the results with `print()`.\n\nGive it a try, and remember \u2013 debugging is just part of the learning adventure! \ud83d\ude80 Happy coding!",
+    "metrics": {
+        "total_duration_s": 2.720623132,
+        "prompt_eval_count": 162,
+        "eval_count": 460,
+        "tokens_per_second": 169.07891232323757
+    },
+    "timestamp": "2025-12-05T18:30:09.864553"
+}
